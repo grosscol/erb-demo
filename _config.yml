@@ -1,7 +1,7 @@
-timezone:    Europe/Berlin
+timezone:    America/Detroit
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-baseurl:     ""
+baseurl:     "/erb-demo"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
@@ -13,20 +13,17 @@ kramdown:
   ## for german: "sbquo,lsquo,bdquo,ldquo"
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-#gems:
-#  - jemoji
-
 ## personalize your slide show
-title:       reveal-jekyll
-author:      Thomas Friese
-description: Reveal.js for Jekyll with Solarized Color theme
+title:       Ruby Templating
+author:      Colin A. Gross
+description: Brief demo of templating with Ruby
 
 sass:
   style:     :compressed
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     light
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -107,7 +104,7 @@ exclude: [
   "vendor",
   "reveal.js/test",
   "reveal.js/index.html",
-  "reveal.js/README.md",
+  "reveal.js/readme.md",
   "reveal.js/bower.json",
   "reveal.js/Gruntfile.js",
   "reveal.js/CONTRIBUTING.md",
